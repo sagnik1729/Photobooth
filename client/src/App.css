@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+a{
+  color:hsla(249, 100%, 31%, 0.644) !important;
+}
+ /* idk why it is run still in  a tag */
+
+.brand-logo{
+  font-family: 'Grand Hotel', cursive;
+  font-size: 3vw !important;
+  padding-left: 1vw !important;
+ 
+}
+h3{
+  font-family: 'Grand Hotel', cursive;
+  font-size: 5vmax !important;
+}
+h2{
+  font-family: 'Grand Hotel', cursive;
+  font-size: 3vmax !important;
+}
+.mycard{
+  margin-top: 30px;
+}
+.authcard{
+    padding: 10px 30px 10px;   
+    text-align: center;
+    max-width: 40%;
+    min-width: 350px !important;
+    height: max-content;
+    margin: 5% auto;
+}
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid rgba(122, 8, 252, 0.589) !important;
+  box-shadow: 0 1px 0 0  rgba(122, 8, 252, 0.589)  !important;
+}
+
+.input-field input[type=password]:focus {
+  border-bottom: 1px solid  rgba(122, 8, 252, 0.589) !important;
+  box-shadow: 0 1px 0 0  rgba(122, 8, 252, 0.589)   !important;
+}
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.item{
+  width: 30%;
+  min-width: 200px;
+  height: auto; 
+  margin: 10px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.home-card{
+  max-width: 900px;
+  height: max-content;
+  margin:30px auto;
+  padding :15px;
+  
+}
+
+input[type="file"] {
+  display: none;
+}
+#toast-container{
+  top:30px !important;
+  right: 20px !important;
+  left: auto !important;
+}
